@@ -1,0 +1,128 @@
+# PDF Tools ComfyUI Custom Node - Requirements
+# For ComfyUI installation at: A:\Comfy25\ComfyUI_windows_portable\python_embeded
+
+# ============================================================================
+# CORE DEPENDENCIES (Required for basic functionality)
+# ============================================================================
+
+# Image Processing
+Pillow>=10.0.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# PyTorch (should already be installed with ComfyUI)
+# torch>=2.0.0
+# torchvision>=0.15.0
+
+# ============================================================================
+# PDF PROCESSING (For PDF extraction nodes)
+# ============================================================================
+PyMuPDF>=1.23.0  # fitz - Main PDF library
+PyPDF2>=3.0.0    # Alternative PDF library
+
+# ============================================================================
+# AI/ML MODELS (For Florence2, SAM2, Layout analysis)
+# ============================================================================
+
+# Transformers and Hugging Face
+transformers>=4.35.0
+safetensors>=0.4.0
+accelerate>=0.24.0
+sentencepiece>=0.1.99  # Required for some transformers models
+
+# Computer Vision models
+timm>=0.9.0  # PyTorch Image Models - required by Florence2
+
+# Optional: Surya OCR (commented out - only install if needed)
+# surya-ocr>=0.4.0
+
+# ============================================================================
+# DOWNLOADER NODES (gallery-dl and yt-dlp)
+# ============================================================================
+
+# Gallery-dl for downloading from various websites
+gallery-dl>=1.26.0
+
+# Yt-dlp for video/audio downloading
+yt-dlp>=2023.12.0
+
+# Browser cookie support (for authentication)
+browser-cookie3>=0.19.0
+
+# ============================================================================
+# OCR LIBRARIES (Optional - for enhanced text recognition)
+# ============================================================================
+
+# Tesseract OCR wrapper (requires Tesseract binary installed separately)
+# pytesseract>=0.3.10
+
+# PaddleOCR (commented out - large dependency)
+# paddleocr>=2.7.0
+
+# EasyOCR (commented out - large dependency)
+# easyocr>=1.7.0
+
+# ============================================================================
+# UTILITY LIBRARIES
+# ============================================================================
+
+# HTTP requests and web scraping
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Data validation and parsing
+jsonschema>=4.19.0
+
+# Progress bars and CLI formatting
+tqdm>=4.66.0
+colorama>=0.4.6  # For colored terminal output
+
+# ============================================================================
+# OPTIONAL DEPENDENCIES
+# ============================================================================
+
+# PDF to image conversion (requires poppler binary)
+# pdf2image>=1.16.0
+
+# Advanced image processing
+# einops>=0.7.0  # Used in some vision transformers
+
+# Layout analysis (commented out - may conflict with transformers versions)
+# layoutparser>=0.3.4
+
+# SAM2 (Segment Anything Model 2) - Install from source if needed
+# Installation: pip install git+https://github.com/facebookresearch/segment-anything-2.git
+
+# ============================================================================
+# NOTES
+# ============================================================================
+
+# 1. Make sure you're using the correct Python environment:
+#    A:\Comfy25\ComfyUI_windows_portable\python_embeded
+#
+# 2. To install all requirements:
+#    python_embeded\python.exe -m pip install -r requirements.txt
+#
+# 3. Some packages require additional system dependencies:
+#    - PyMuPDF: No additional dependencies
+#    - Tesseract OCR: Download from https://github.com/UB-Mannheim/tesseract/wiki
+#    - Poppler (for pdf2image): Download from https://github.com/oschwartz10612/poppler-windows
+#
+# 4. GPU-specific packages:
+#    - Ensure torch is CUDA-enabled for GPU acceleration
+#    - Check: python -c "import torch; print(torch.cuda.is_available())"
+#
+# 5. For browser cookies to work with Chrome, you may need to:
+#    - Run ComfyUI with administrator privileges (Windows)
+#    - Or use Firefox which doesn't require admin access
+#
+# 6. Optional heavy dependencies (not included by default):
+#    - Surya OCR: Advanced OCR system (~1GB models)
+#    - PaddleOCR: Chinese + English OCR (~500MB models)
+#    - EasyOCR: Multi-language OCR (~1GB models)
+#    - SAM2: Segment Anything Model 2 (large model files)
+#
+# 7. Model downloads:
+#    - Florence2 models: Downloaded automatically to ComfyUI/models/LLM/
+#    - SAM2 models: Downloaded automatically to ComfyUI/models/sams/
+#    - Transformers cache: Usually in user home directory/.cache/huggingface/

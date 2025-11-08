@@ -1,0 +1,220 @@
+# PDF Tools .gitignore
+
+# ============================================================================
+# VS Code
+# ============================================================================
+
+# Local History extension files
+.history/
+
+# ============================================================================
+# Python
+# ============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================================================
+# IDE / Editor
+# ============================================================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ============================================================================
+# Operating System
+# ============================================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# ============================================================================
+# Project Specific
+# ============================================================================
+
+# Sensitive files
+*.secret
+*.key
+
+# Downloaded media and outputs
+downloads/
+output/
+pdf-output/
+instagram-downloads/
+youtube-downloads/
+gallery-dl-downloads/
+test-downloads/
+temp/
+tmp/
+
+# Model caches and checkpoints
+models/
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Hugging Face cache (if local)
+.cache/
+huggingface_cache/
+
+# Test outputs
+test_output/
+test_images/
+test_pdfs/
+visual_tests/
+
+# Logs
+*.log
+logs/
+*.out
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================================================
+# ComfyUI Specific
+# ============================================================================
+
+# ComfyUI generated
+comfy_extras/
+
+# Workflow saves (optional - uncomment if you don't want to commit workflows)
+# workflows/
+# *.json
+
+# ============================================================================
+# Development and Documentation
+# ============================================================================
+
+# Backup files
+*.bak
+*.backup
+*-old.*
+*-backup.*
+
+# Draft documentation
+*-draft.*
+*-wip.*
+
+# Personal notes
+NOTES.txt
+TODO-personal.md
+scratch/
+
+# ============================================================================
+# Archives
+# ============================================================================
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================================================
+# Specific files to ignore
+# ============================================================================
+
+# Batch files that are system-specific
+update_instagram_cookies.bat
+
+# Desktop files
+desktop.ini
+
+# ============================================================================
+# Keep these files (force include)
+# ============================================================================
+
+# Force include yt-dlp config templates (they're safe without credentials)
+!configs/yt-dlp.conf
+!configs/yt-dlp-*.conf
+
+# Force include all .example files for users to copy
+!configs/*.example

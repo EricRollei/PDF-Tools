@@ -1,0 +1,446 @@
+┣ 📂__pycache__
+┃ ┗ 📜__init__.cpython-311.pyc
+┣ 📂Docs
+┃ ┣ 📂resource
+┃ ┃ ┗ 📜load_model.py
+┃ ┣ 📜ai_fusion_test_script.py
+┃ ┣ 📜ai_fusion_test.py
+┃ ┣ 📜claude-pdf-extractor-07-progress.md
+┃ ┣ 📜deep_research_image_processing_tools.md
+┃ ┣ 📜file_tree.txt
+┃ ┣ 📜hybrid_implementation_plan.md
+┃ ┣ 📜run.md
+┃ ┗ 📜spread_detection_test_script.py
+┣ 📂florence2_scripts
+┃ ┣ 📂__pycache__
+┃ ┃ ┣ 📜__init__.cpython-311.pyc
+┃ ┃ ┣ 📜analysis_engine.cpython-311.pyc
+┃ ┃ ┣ 📜configuration_florence2.cpython-311.pyc
+┃ ┃ ┣ 📜florence2_detector.cpython-311.pyc
+┃ ┃ ┣ 📜modeling_florence2.cpython-311.pyc
+┃ ┃ ┗ 📜modern_image_enhancer.cpython-311.pyc
+┃ ┣ 📂ai_fusion_test_test2_20250626_181427
+┃ ┃ ┣ 📂cropped_images
+┃ ┃ ┣ 📂florence2_results
+┃ ┃ ┣ 📂fusion_results
+┃ ┃ ┃ ┣ 📜page_001_fused.png
+┃ ┃ ┃ ┣ 📜page_002_fused.png
+┃ ┃ ┃ ┣ 📜page_003_fused.png
+┃ ┃ ┃ ┣ 📜page_004_fused.png
+┃ ┃ ┃ ┗ 📜page_005_fused.png
+┃ ┃ ┣ 📂page_images
+┃ ┃ ┃ ┣ 📜page_001.png
+┃ ┃ ┃ ┣ 📜page_002.png
+┃ ┃ ┃ ┣ 📜page_003.png
+┃ ┃ ┃ ┣ 📜page_004.png
+┃ ┃ ┃ ┗ 📜page_005.png
+┃ ┃ ┣ 📂surya_results
+┃ ┃ ┗ 📜ai_fusion_test_report.json
+┃ ┣ 📂ai_fusion_test_test2_20250626_181523
+┃ ┃ ┣ 📂cropped_images
+┃ ┃ ┣ 📂florence2_results
+┃ ┃ ┣ 📂fusion_results
+┃ ┃ ┃ ┣ 📜page_001_fused.png
+┃ ┃ ┃ ┣ 📜page_002_fused.png
+┃ ┃ ┃ ┣ 📜page_003_fused.png
+┃ ┃ ┃ ┣ 📜page_004_fused.png
+┃ ┃ ┃ ┗ 📜page_005_fused.png
+┃ ┃ ┣ 📂page_images
+┃ ┃ ┃ ┣ 📜page_001.png
+┃ ┃ ┃ ┣ 📜page_002.png
+┃ ┃ ┃ ┣ 📜page_003.png
+┃ ┃ ┃ ┣ 📜page_004.png
+┃ ┃ ┃ ┗ 📜page_005.png
+┃ ┃ ┣ 📂surya_results
+┃ ┃ ┗ 📜ai_fusion_test_report.json
+┃ ┣ 📂ai_fusion_test_test2_20250626_232947
+┃ ┃ ┣ 📂comparison
+┃ ┃ ┣ 📂florence2_results
+┃ ┃ ┣ 📂fusion_results
+┃ ┃ ┗ 📂surya_results
+┃ ┣ 📂ai_fusion_test_test2_20250626_234506
+┃ ┃ ┣ 📂comparison
+┃ ┃ ┣ 📂florence2_results
+┃ ┃ ┃ ┣ 📜page_001_florence2.png
+┃ ┃ ┃ ┣ 📜page_002_florence2.png
+┃ ┃ ┃ ┣ 📜page_003_florence2.png
+┃ ┃ ┃ ┣ 📜page_004_florence2.png
+┃ ┃ ┃ ┗ 📜page_005_florence2.png
+┃ ┃ ┣ 📂fusion_results
+┃ ┃ ┃ ┣ 📜page_001_fusion.png
+┃ ┃ ┃ ┣ 📜page_002_fusion.png
+┃ ┃ ┃ ┣ 📜page_003_fusion.png
+┃ ┃ ┃ ┣ 📜page_004_fusion.png
+┃ ┃ ┃ ┗ 📜page_005_fusion.png
+┃ ┃ ┣ 📂surya_results
+┃ ┃ ┃ ┣ 📜page_001_surya.png
+┃ ┃ ┃ ┣ 📜page_002_surya.png
+┃ ┃ ┃ ┣ 📜page_003_surya.png
+┃ ┃ ┃ ┣ 📜page_004_surya.png
+┃ ┃ ┃ ┗ 📜page_005_surya.png
+┃ ┃ ┗ 📜fusion_test_results.json
+┃ ┣ 📂enhanced_spread_test_test_20250626_230731
+┃ ┃ ┣ 📂color_analysis
+┃ ┃ ┃ ┣ 📜color_analysis_002_003.png
+┃ ┃ ┃ ┣ 📜color_analysis_004_005.png
+┃ ┃ ┃ ┣ 📜color_analysis_006_007.png
+┃ ┃ ┃ ┣ 📜color_analysis_008_009.png
+┃ ┃ ┃ ┣ 📜color_analysis_010_011.png
+┃ ┃ ┃ ┣ 📜color_analysis_012_013.png
+┃ ┃ ┃ ┣ 📜color_analysis_014_015.png
+┃ ┃ ┃ ┣ 📜color_analysis_016_017.png
+┃ ┃ ┃ ┣ 📜color_analysis_018_019.png
+┃ ┃ ┃ ┣ 📜color_analysis_020_021.png
+┃ ┃ ┃ ┣ 📜color_analysis_022_023.png
+┃ ┃ ┃ ┣ 📜color_analysis_024_025.png
+┃ ┃ ┃ ┣ 📜color_analysis_026_027.png
+┃ ┃ ┃ ┣ 📜color_analysis_028_029.png
+┃ ┃ ┃ ┣ 📜color_analysis_030_031.png
+┃ ┃ ┃ ┣ 📜color_analysis_032_033.png
+┃ ┃ ┃ ┣ 📜color_analysis_034_035.png
+┃ ┃ ┃ ┣ 📜color_analysis_036_037.png
+┃ ┃ ┃ ┣ 📜color_analysis_038_039.png
+┃ ┃ ┃ ┣ 📜color_analysis_040_041.png
+┃ ┃ ┃ ┣ 📜color_analysis_042_043.png
+┃ ┃ ┃ ┣ 📜color_analysis_044_045.png
+┃ ┃ ┃ ┣ 📜color_analysis_046_047.png
+┃ ┃ ┃ ┣ 📜color_analysis_048_049.png
+┃ ┃ ┃ ┣ 📜color_analysis_050_051.png
+┃ ┃ ┃ ┣ 📜color_analysis_052_053.png
+┃ ┃ ┃ ┣ 📜color_analysis_054_055.png
+┃ ┃ ┃ ┗ 📜color_analysis_056_057.png
+┃ ┃ ┣ 📂heuristic_analysis
+┃ ┃ ┣ 📂individual_pages
+┃ ┃ ┣ 📂joined_spreads
+┃ ┃ ┣ 📂spread_candidates
+┃ ┃ ┗ 📂validation_analysis
+┃ ┣ 📂enhanced_spread_test_test_20250626_235150
+┃ ┃ ┣ 📂color_analysis
+┃ ┃ ┃ ┣ 📜color_analysis_002_003.png
+┃ ┃ ┃ ┣ 📜color_analysis_004_005.png
+┃ ┃ ┃ ┣ 📜color_analysis_006_007.png
+┃ ┃ ┃ ┣ 📜color_analysis_008_009.png
+┃ ┃ ┃ ┣ 📜color_analysis_010_011.png
+┃ ┃ ┃ ┣ 📜color_analysis_012_013.png
+┃ ┃ ┃ ┣ 📜color_analysis_014_015.png
+┃ ┃ ┃ ┣ 📜color_analysis_016_017.png
+┃ ┃ ┃ ┣ 📜color_analysis_018_019.png
+┃ ┃ ┃ ┣ 📜color_analysis_020_021.png
+┃ ┃ ┃ ┣ 📜color_analysis_022_023.png
+┃ ┃ ┃ ┣ 📜color_analysis_024_025.png
+┃ ┃ ┃ ┣ 📜color_analysis_026_027.png
+┃ ┃ ┃ ┣ 📜color_analysis_028_029.png
+┃ ┃ ┃ ┣ 📜color_analysis_030_031.png
+┃ ┃ ┃ ┣ 📜color_analysis_032_033.png
+┃ ┃ ┃ ┣ 📜color_analysis_034_035.png
+┃ ┃ ┃ ┣ 📜color_analysis_036_037.png
+┃ ┃ ┃ ┣ 📜color_analysis_038_039.png
+┃ ┃ ┃ ┣ 📜color_analysis_040_041.png
+┃ ┃ ┃ ┣ 📜color_analysis_042_043.png
+┃ ┃ ┃ ┣ 📜color_analysis_044_045.png
+┃ ┃ ┃ ┣ 📜color_analysis_046_047.png
+┃ ┃ ┃ ┣ 📜color_analysis_048_049.png
+┃ ┃ ┃ ┣ 📜color_analysis_050_051.png
+┃ ┃ ┃ ┣ 📜color_analysis_052_053.png
+┃ ┃ ┃ ┣ 📜color_analysis_054_055.png
+┃ ┃ ┃ ┣ 📜color_analysis_056_057.png
+┃ ┃ ┃ ┣ 📜color_analysis_058_059.png
+┃ ┃ ┃ ┣ 📜color_analysis_060_061.png
+┃ ┃ ┃ ┣ 📜color_analysis_062_063.png
+┃ ┃ ┃ ┣ 📜color_analysis_064_065.png
+┃ ┃ ┃ ┣ 📜color_analysis_066_067.png
+┃ ┃ ┃ ┣ 📜color_analysis_068_069.png
+┃ ┃ ┃ ┣ 📜color_analysis_070_071.png
+┃ ┃ ┃ ┣ 📜color_analysis_072_073.png
+┃ ┃ ┃ ┣ 📜color_analysis_074_075.png
+┃ ┃ ┃ ┣ 📜color_analysis_076_077.png
+┃ ┃ ┃ ┣ 📜color_analysis_078_079.png
+┃ ┃ ┃ ┣ 📜color_analysis_080_081.png
+┃ ┃ ┃ ┣ 📜color_analysis_082_083.png
+┃ ┃ ┃ ┣ 📜color_analysis_084_085.png
+┃ ┃ ┃ ┣ 📜color_analysis_086_087.png
+┃ ┃ ┃ ┣ 📜color_analysis_088_089.png
+┃ ┃ ┃ ┣ 📜color_analysis_090_091.png
+┃ ┃ ┃ ┣ 📜color_analysis_092_093.png
+┃ ┃ ┃ ┣ 📜color_analysis_094_095.png
+┃ ┃ ┃ ┣ 📜color_analysis_096_097.png
+┃ ┃ ┃ ┣ 📜color_analysis_098_099.png
+┃ ┃ ┃ ┣ 📜color_analysis_100_101.png
+┃ ┃ ┃ ┣ 📜color_analysis_102_103.png
+┃ ┃ ┃ ┣ 📜color_analysis_104_105.png
+┃ ┃ ┃ ┣ 📜color_analysis_106_107.png
+┃ ┃ ┃ ┣ 📜color_analysis_108_109.png
+┃ ┃ ┃ ┣ 📜color_analysis_110_111.png
+┃ ┃ ┃ ┣ 📜color_analysis_112_113.png
+┃ ┃ ┃ ┣ 📜color_analysis_114_115.png
+┃ ┃ ┃ ┣ 📜color_analysis_116_117.png
+┃ ┃ ┃ ┣ 📜color_analysis_118_119.png
+┃ ┃ ┃ ┣ 📜color_analysis_120_121.png
+┃ ┃ ┃ ┣ 📜color_analysis_122_123.png
+┃ ┃ ┃ ┣ 📜color_analysis_124_125.png
+┃ ┃ ┃ ┣ 📜color_analysis_126_127.png
+┃ ┃ ┃ ┣ 📜color_analysis_128_129.png
+┃ ┃ ┃ ┣ 📜color_analysis_130_131.png
+┃ ┃ ┃ ┣ 📜color_analysis_132_133.png
+┃ ┃ ┃ ┣ 📜color_analysis_134_135.png
+┃ ┃ ┃ ┣ 📜color_analysis_136_137.png
+┃ ┃ ┃ ┣ 📜color_analysis_138_139.png
+┃ ┃ ┃ ┣ 📜color_analysis_140_141.png
+┃ ┃ ┃ ┣ 📜color_analysis_142_143.png
+┃ ┃ ┃ ┣ 📜color_analysis_144_145.png
+┃ ┃ ┃ ┣ 📜color_analysis_146_147.png
+┃ ┃ ┃ ┣ 📜color_analysis_148_149.png
+┃ ┃ ┃ ┣ 📜color_analysis_150_151.png
+┃ ┃ ┃ ┣ 📜color_analysis_152_153.png
+┃ ┃ ┃ ┣ 📜color_analysis_154_155.png
+┃ ┃ ┃ ┣ 📜color_analysis_156_157.png
+┃ ┃ ┃ ┣ 📜color_analysis_158_159.png
+┃ ┃ ┃ ┣ 📜color_analysis_160_161.png
+┃ ┃ ┃ ┣ 📜color_analysis_162_163.png
+┃ ┃ ┃ ┣ 📜color_analysis_164_165.png
+┃ ┃ ┃ ┣ 📜color_analysis_166_167.png
+┃ ┃ ┃ ┣ 📜color_analysis_168_169.png
+┃ ┃ ┃ ┣ 📜color_analysis_170_171.png
+┃ ┃ ┃ ┣ 📜color_analysis_172_173.png
+┃ ┃ ┃ ┣ 📜color_analysis_174_175.png
+┃ ┃ ┃ ┣ 📜color_analysis_176_177.png
+┃ ┃ ┃ ┣ 📜color_analysis_178_179.png
+┃ ┃ ┃ ┣ 📜color_analysis_180_181.png
+┃ ┃ ┃ ┣ 📜color_analysis_182_183.png
+┃ ┃ ┃ ┣ 📜color_analysis_184_185.png
+┃ ┃ ┃ ┣ 📜color_analysis_186_187.png
+┃ ┃ ┃ ┣ 📜color_analysis_188_189.png
+┃ ┃ ┃ ┣ 📜color_analysis_190_191.png
+┃ ┃ ┃ ┣ 📜color_analysis_192_193.png
+┃ ┃ ┃ ┣ 📜color_analysis_194_195.png
+┃ ┃ ┃ ┣ 📜color_analysis_196_197.png
+┃ ┃ ┃ ┣ 📜color_analysis_198_199.png
+┃ ┃ ┃ ┣ 📜color_analysis_200_201.png
+┃ ┃ ┃ ┣ 📜color_analysis_202_203.png
+┃ ┃ ┃ ┣ 📜color_analysis_204_205.png
+┃ ┃ ┃ ┣ 📜color_analysis_206_207.png
+┃ ┃ ┃ ┣ 📜color_analysis_208_209.png
+┃ ┃ ┃ ┣ 📜color_analysis_210_211.png
+┃ ┃ ┃ ┣ 📜color_analysis_212_213.png
+┃ ┃ ┃ ┣ 📜color_analysis_214_215.png
+┃ ┃ ┃ ┣ 📜color_analysis_216_217.png
+┃ ┃ ┃ ┣ 📜color_analysis_218_219.png
+┃ ┃ ┃ ┣ 📜color_analysis_220_221.png
+┃ ┃ ┃ ┣ 📜color_analysis_222_223.png
+┃ ┃ ┃ ┣ 📜color_analysis_224_225.png
+┃ ┃ ┃ ┣ 📜color_analysis_226_227.png
+┃ ┃ ┃ ┣ 📜color_analysis_228_229.png
+┃ ┃ ┃ ┣ 📜color_analysis_230_231.png
+┃ ┃ ┃ ┣ 📜color_analysis_232_233.png
+┃ ┃ ┃ ┣ 📜color_analysis_234_235.png
+┃ ┃ ┃ ┣ 📜color_analysis_236_237.png
+┃ ┃ ┃ ┣ 📜color_analysis_238_239.png
+┃ ┃ ┃ ┣ 📜color_analysis_240_241.png
+┃ ┃ ┃ ┣ 📜color_analysis_242_243.png
+┃ ┃ ┃ ┣ 📜color_analysis_244_245.png
+┃ ┃ ┃ ┣ 📜color_analysis_246_247.png
+┃ ┃ ┃ ┣ 📜color_analysis_248_249.png
+┃ ┃ ┃ ┣ 📜color_analysis_250_251.png
+┃ ┃ ┃ ┣ 📜color_analysis_252_253.png
+┃ ┃ ┃ ┗ 📜color_analysis_254_255.png
+┃ ┃ ┣ 📂heuristic_analysis
+┃ ┃ ┣ 📂individual_pages
+┃ ┃ ┣ 📂joined_spreads
+┃ ┃ ┣ 📂spread_candidates
+┃ ┃ ┣ 📂validation_analysis
+┃ ┃ ┗ 📜enhanced_spread_results.json
+┃ ┣ 📂enhanced_spread_test_test2_20250626_231019
+┃ ┃ ┣ 📂color_analysis
+┃ ┃ ┣ 📂heuristic_analysis
+┃ ┃ ┣ 📂individual_pages
+┃ ┃ ┣ 📂joined_spreads
+┃ ┃ ┣ 📂spread_candidates
+┃ ┃ ┗ 📂validation_analysis
+┃ ┣ 📂enhanced_spread_test_test2_20250626_232536
+┃ ┃ ┣ 📂color_analysis
+┃ ┃ ┣ 📂heuristic_analysis
+┃ ┃ ┣ 📂individual_pages
+┃ ┃ ┣ 📂joined_spreads
+┃ ┃ ┣ 📂spread_candidates
+┃ ┃ ┗ 📂validation_analysis
+┃ ┣ 📂enhanced_spread_test_test2_20250626_232905
+┃ ┃ ┣ 📂color_analysis
+┃ ┃ ┣ 📂heuristic_analysis
+┃ ┃ ┣ 📂individual_pages
+┃ ┃ ┣ 📂joined_spreads
+┃ ┃ ┣ 📂spread_candidates
+┃ ┃ ┗ 📂validation_analysis
+┃ ┣ 📂enhanced_spread_test_test2_20250626_234946
+┃ ┃ ┣ 📂color_analysis
+┃ ┃ ┃ ┣ 📜color_analysis_002_003.png
+┃ ┃ ┃ ┣ 📜color_analysis_004_005.png
+┃ ┃ ┃ ┣ 📜color_analysis_006_007.png
+┃ ┃ ┃ ┣ 📜color_analysis_008_009.png
+┃ ┃ ┃ ┣ 📜color_analysis_010_011.png
+┃ ┃ ┃ ┣ 📜color_analysis_012_013.png
+┃ ┃ ┃ ┣ 📜color_analysis_014_015.png
+┃ ┃ ┃ ┣ 📜color_analysis_016_017.png
+┃ ┃ ┃ ┣ 📜color_analysis_018_019.png
+┃ ┃ ┃ ┣ 📜color_analysis_020_021.png
+┃ ┃ ┃ ┣ 📜color_analysis_022_023.png
+┃ ┃ ┃ ┣ 📜color_analysis_024_025.png
+┃ ┃ ┃ ┣ 📜color_analysis_026_027.png
+┃ ┃ ┃ ┣ 📜color_analysis_028_029.png
+┃ ┃ ┃ ┣ 📜color_analysis_030_031.png
+┃ ┃ ┃ ┣ 📜color_analysis_032_033.png
+┃ ┃ ┃ ┣ 📜color_analysis_034_035.png
+┃ ┃ ┃ ┣ 📜color_analysis_036_037.png
+┃ ┃ ┃ ┣ 📜color_analysis_038_039.png
+┃ ┃ ┃ ┣ 📜color_analysis_040_041.png
+┃ ┃ ┃ ┣ 📜color_analysis_042_043.png
+┃ ┃ ┃ ┣ 📜color_analysis_044_045.png
+┃ ┃ ┃ ┣ 📜color_analysis_046_047.png
+┃ ┃ ┃ ┣ 📜color_analysis_048_049.png
+┃ ┃ ┃ ┣ 📜color_analysis_050_051.png
+┃ ┃ ┃ ┣ 📜color_analysis_052_053.png
+┃ ┃ ┃ ┣ 📜color_analysis_054_055.png
+┃ ┃ ┃ ┣ 📜color_analysis_056_057.png
+┃ ┃ ┃ ┣ 📜color_analysis_058_059.png
+┃ ┃ ┃ ┣ 📜color_analysis_060_061.png
+┃ ┃ ┃ ┣ 📜color_analysis_062_063.png
+┃ ┃ ┃ ┣ 📜color_analysis_064_065.png
+┃ ┃ ┃ ┣ 📜color_analysis_066_067.png
+┃ ┃ ┃ ┣ 📜color_analysis_068_069.png
+┃ ┃ ┃ ┣ 📜color_analysis_070_071.png
+┃ ┃ ┃ ┣ 📜color_analysis_072_073.png
+┃ ┃ ┃ ┣ 📜color_analysis_074_075.png
+┃ ┃ ┃ ┣ 📜color_analysis_076_077.png
+┃ ┃ ┃ ┣ 📜color_analysis_078_079.png
+┃ ┃ ┃ ┣ 📜color_analysis_080_081.png
+┃ ┃ ┃ ┣ 📜color_analysis_082_083.png
+┃ ┃ ┃ ┣ 📜color_analysis_084_085.png
+┃ ┃ ┃ ┗ 📜color_analysis_086_087.png
+┃ ┃ ┣ 📂heuristic_analysis
+┃ ┃ ┣ 📂individual_pages
+┃ ┃ ┣ 📂joined_spreads
+┃ ┃ ┣ 📂spread_candidates
+┃ ┃ ┣ 📂validation_analysis
+┃ ┃ ┗ 📜enhanced_spread_results.json
+┃ ┣ 📜__init__.py
+┃ ┣ 📜1.py
+┃ ┣ 📜2.py
+┃ ┣ 📜ai_fusion_fixed.py
+┃ ┣ 📜analysis_engine-bak-good-working.py
+┃ ┣ 📜analysis_engine.py
+┃ ┣ 📜configuration_florence2.py
+┃ ┣ 📜diagnostic.py
+┃ ┣ 📜florence2_detector.py
+┃ ┣ 📜modeling_florence2.py
+┃ ┣ 📜modern_image_enhancer-backup.py
+┃ ┣ 📜modern_image_enhancer.py
+┃ ┗ 📜spread_detection_enhanced.py
+┣ 📂local_groundingdino
+┃ ┣ 📂datasets
+┃ ┃ ┣ 📂__pycache__
+┃ ┃ ┃ ┣ 📜__init__.cpython-311.pyc
+┃ ┃ ┃ ┗ 📜transforms.cpython-311.pyc
+┃ ┃ ┣ 📜__init__.py
+┃ ┃ ┗ 📜transforms.py
+┃ ┣ 📂models
+┃ ┃ ┣ 📂__pycache__
+┃ ┃ ┃ ┣ 📜__init__.cpython-311.pyc
+┃ ┃ ┃ ┗ 📜registry.cpython-311.pyc
+┃ ┃ ┣ 📂GroundingDINO
+┃ ┃ ┃ ┣ 📂__pycache__
+┃ ┃ ┃ ┃ ┣ 📜__init__.cpython-311.pyc
+┃ ┃ ┃ ┃ ┣ 📜bertwarper.cpython-311.pyc
+┃ ┃ ┃ ┃ ┣ 📜fuse_modules.cpython-311.pyc
+┃ ┃ ┃ ┃ ┣ 📜groundingdino.cpython-311.pyc
+┃ ┃ ┃ ┃ ┣ 📜ms_deform_attn.cpython-311.pyc
+┃ ┃ ┃ ┃ ┣ 📜transformer_vanilla.cpython-311.pyc
+┃ ┃ ┃ ┃ ┣ 📜transformer.cpython-311.pyc
+┃ ┃ ┃ ┃ ┗ 📜utils.cpython-311.pyc
+┃ ┃ ┃ ┣ 📂backbone
+┃ ┃ ┃ ┃ ┣ 📂__pycache__
+┃ ┃ ┃ ┃ ┃ ┣ 📜__init__.cpython-311.pyc
+┃ ┃ ┃ ┃ ┃ ┣ 📜backbone.cpython-311.pyc
+┃ ┃ ┃ ┃ ┃ ┣ 📜position_encoding.cpython-311.pyc
+┃ ┃ ┃ ┃ ┃ ┗ 📜swin_transformer.cpython-311.pyc
+┃ ┃ ┃ ┃ ┣ 📜__init__.py
+┃ ┃ ┃ ┃ ┣ 📜backbone.py
+┃ ┃ ┃ ┃ ┣ 📜position_encoding.py
+┃ ┃ ┃ ┃ ┗ 📜swin_transformer.py
+┃ ┃ ┃ ┣ 📜__init__.py
+┃ ┃ ┃ ┣ 📜bertwarper.py
+┃ ┃ ┃ ┣ 📜fuse_modules.py
+┃ ┃ ┃ ┣ 📜groundingdino.py
+┃ ┃ ┃ ┣ 📜ms_deform_attn.py
+┃ ┃ ┃ ┣ 📜transformer_vanilla.py
+┃ ┃ ┃ ┣ 📜transformer.py
+┃ ┃ ┃ ┗ 📜utils.py
+┃ ┃ ┣ 📜__init__.py
+┃ ┃ ┗ 📜registry.py
+┃ ┗ 📂util
+┃   ┣ 📂__pycache__
+┃   ┃ ┣ 📜__init__.cpython-311.pyc
+┃   ┃ ┣ 📜box_ops.cpython-311.pyc
+┃   ┃ ┣ 📜get_tokenlizer.cpython-311.pyc
+┃   ┃ ┣ 📜misc.cpython-311.pyc
+┃   ┃ ┣ 📜slconfig.cpython-311.pyc
+┃   ┃ ┗ 📜utils.cpython-311.pyc
+┃   ┣ 📜__init__.py
+┃   ┣ 📜box_ops.py
+┃   ┣ 📜get_tokenlizer.py
+┃   ┣ 📜inference.py
+┃   ┣ 📜misc.py
+┃   ┣ 📜slconfig.py
+┃   ┣ 📜slio.py
+┃   ┗ 📜utils.py
+┣ 📂nodes
+┃ ┣ 📂__pycache__
+┃ ┃ ┣ 📜basic_surya_v02.cpython-311.pyc
+┃ ┃ ┣ 📜basic_surya.cpython-311.pyc
+┃ ┃ ┣ 📜comfyui_rectangle_detector_node.cpython-311.pyc
+┃ ┃ ┣ 📜enhanced_layout_parser_v02.cpython-311.pyc
+┃ ┃ ┣ 📜enhanced_layout_parser_v03.cpython-311.pyc
+┃ ┃ ┣ 📜enhanced_layout_parser_v04.cpython-311.pyc
+┃ ┃ ┣ 📜enhanced_layout_parser_v05.cpython-311.pyc
+┃ ┃ ┣ 📜enhanced_layout_parser_v06.cpython-311.pyc
+┃ ┃ ┣ 📜enhanced_layout_parser.cpython-311.pyc
+┃ ┃ ┣ 📜eric_rectangle_detector_node.cpython-311.pyc
+┃ ┃ ┣ 📜eric-florence2-cropper-node.cpython-311.pyc
+┃ ┃ ┣ 📜eric-pdf-extractor_v04.cpython-311.pyc
+┃ ┃ ┣ 📜eric-pdf-extractor_v05.cpython-311.pyc
+┃ ┃ ┣ 📜eric-pdf-extractor_v06.cpython-311.pyc
+┃ ┃ ┣ 📜layoutlmv3_node.cpython-311.pyc
+┃ ┃ ┣ 📜LayoutParserNode.cpython-311.pyc
+┃ ┃ ┣ 📜pdf_extractor_v07.cpython-311.pyc
+┃ ┃ ┣ 📜pdf_extractor_v08.cpython-311.pyc
+┃ ┃ ┣ 📜SafeLayoutParserNode.cpython-311.pyc
+┃ ┃ ┣ 📜sam2_florence_segmentation.cpython-311.pyc
+┃ ┃ ┗ 📜sam2_integration.cpython-311.pyc
+┃ ┣ 📜basic_surya_v02.py
+┃ ┣ 📜basic_surya.py
+┃ ┣ 📜enhanced_layout_parser_v06.py
+┃ ┣ 📜enhanced_layout_parser.py
+┃ ┣ 📜eric_rectangle_detector_node.py
+┃ ┣ 📜eric-florence2-cropper-node.py
+┃ ┣ 📜eric-pdf-extractor_v04.py
+┃ ┣ 📜eric-pdf-extractor_v05.py
+┃ ┣ 📜eric-pdf-extractor_v06.py
+┃ ┣ 📜layoutlmv3_node.py
+┃ ┣ 📜pdf_extractor_v07.py
+┃ ┗ 📜pdf_extractor_v08.py
+┣ 📂oldfiles
+┃ ┣ 📜enhanced_layout_parser_v02.py
+┃ ┣ 📜enhanced_layout_parser_v03.py
+┃ ┣ 📜enhanced_layout_parser_v04.py
+┃ ┣ 📜enhanced_layout_parser_v05.py
+┃ ┣ 📜image_rectangle_detector.py
+┃ ┣ 📜LayoutParserNode.py
+┃ ┗ 📜SafeLayoutParserNode.py
+┣ 📂sam2_scripts
+┃ ┣ 📂__pycache__
+┃ ┃ ┣ 📜__init__.cpython-311.pyc
+┃ ┃ ┣ 📜image_rectangle_detector.cpython-311.pyc
+┃ ┃ ┣ 📜sam2_florence_segmentation.cpython-311.pyc
+┃ ┃ ┗ 📜sam2_integration.cpython-311.pyc
+┃ ┣ 📜__init__.py
+┃ ┣ 📜sam2_florence_segmentation.py
+┃ ┗ 📜sam2_integration.py
+┗ 📜__init__.py
